@@ -40,9 +40,12 @@ __Run the script with `-n` arguments and get a Network Map type layout.__
 # Notes
 You can define more layouts and change the colors. The script should be easy to read and alter (minus the regex) if you know a little bash.
 
-This script was inspired by a similar script, yet that one uses perl and outputs a plain graph that can turn out to be a vertically stretched out graph that is basically useless.
+This script was inspired by a [similar script](https://gitlab.com/vobijs/vimwiki-graph), yet that one uses perl and outputs a plain graph that can turn out to be a vertically stretched out graph that is basically useless.
+I have converted the nasty perl bit into sed and elevated the functionality of the script to support layouts and work with wiki files instead of md files which are secondary to vimwiki. <br>
+This script should run on any posix machine.
 
 I chose these layouts and colors to mimic obsidians graph looks (even though I literally only saw it once). It's nice to see one's second brain and how complex it has gotten in time. 
 
-Like all art, this script is indeed useless (Oscar Wylde).
+It's a pretty thing to look at. 
+Like all arts, this script is quite useless. (Oscar Wylde)
 
