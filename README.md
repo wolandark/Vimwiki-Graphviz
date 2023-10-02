@@ -8,9 +8,9 @@ Generate a stylish graphical chart from your vimwiki links. Creating an image of
 __Place the `VimWiki-Graphviz.sh` script inside your vimwiki root. Run the script.__
 ```
 ./VimWiki-Graphviz.sh > MyGraph.txt
-
-or
-
+```
+or generate a networkmap layout:
+```
 ./VimWiki-Graphviz.sh -n > MyGraph.txt
 ```
 Paste the output in any dot viewer [like this one](https://dreampuf.github.io/GraphvizOnline/). (_Note that not all dot viewers support sfdp layout, but no matter, we can do it ourselves_).
@@ -36,3 +36,13 @@ __Run the script without arguments and get a SFDP type layout.__
 
 __Run the script with `-n` arguments and get a Network Map type layout.__
 ![gr2](https://github.com/wolandark/Vimwiki-Graphviz/assets/107309764/28c75109-b215-455e-9f65-61cfc196f497)
+
+# Notes
+You can define more layouts and change the colors. The script should be easy to read and alter (minus the regex) if you know a little bash.
+
+This script was inspired by a similar script, yet that one uses perl and outputs a plain graph that can turn out to be a vertically stretched out graph that is basically useless.
+
+I chose these layouts and colors to mimic obsidians graph looks (even though I literally only saw it once). It's nice to see one's second brain and how complex it has gotten in time. 
+
+Like all art, this script is indeed useless (Oscar Wylde).
+
