@@ -27,7 +27,7 @@ fontname=\"Helvetica,Arial,sans-serif\"
 node [fontname=\"Helvetica,Arial,sans-serif\" color=\"#00FF22\" fontcolor=\"#f8f8f8\"]
 edge [fontname=\"Helvetica,Arial,sans-serif\" color=cyan fontcolor=\"#f8f8f8\"]
 layout=$layout
-graph [ranksep=3, root=\"189E\", overlap=prism bgcolor=\"#1e1e2e\" ];"
+graph [ranksep=3, overlap=prism bgcolor=\"#1e1e2e\" ];"
 
 link1='\[[^]]*\]\(([^#][^)]*)\)' 
 link2='\[\[([^#].*?)\]\]'        
