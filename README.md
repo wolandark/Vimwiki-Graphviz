@@ -51,6 +51,7 @@ __Run with `-x` to get a scalexy overlap style.__
 
 
 # Notes
+If you're on windows, consider using [the python version of this script](https://github.com/dustractor/vimwiki2dot2png). I may or may not provide a batch version in the future.
 You can define more layouts and change the colors. The script should be easy to read and alter (minus the regex) if you know a little bash.
 
 This script was inspired by a [similar script](https://gitlab.com/vobijs/vimwiki-graph), yet that one uses perl and outputs a plain graph that can turn out to be a vertically stretched out graph that is basically useless.
